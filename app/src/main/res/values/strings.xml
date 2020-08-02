@@ -4,8 +4,11 @@
     <!--  Activity Main  -->
     <string name="ma_et_1">Название города</string>
 
+    <!--  ERRORS  -->
+    <string name="error_base">Ошибка</string>
+    <string name="error_connection">Нет подключения к интернету</string>
+
     <!--  HTTP ERRORS  -->
-    <string name="http_error_base">Ошибка</string>
     <string name="http_error_400">Некорректный запрос</string>
     <string name="http_error_401">Ошибка авторизации</string>
     <string name="http_error_403">Доступ запрещён</string>
