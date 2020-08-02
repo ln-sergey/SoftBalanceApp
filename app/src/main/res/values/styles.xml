@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="commonText">
+        <item name="android:textSize">@dimen/commonTextSize</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="errorText">
+        <item name="android:textSize">@dimen/commonTextSize</item>
+        <item name="android:textColor">@color/colorError</item>
+    </style>
+
+    <style name="search_input" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/background_light_cornered</item>
+        <item name="android:elevation" tools:targetApi="lollipop">5dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">@dimen/inputTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
